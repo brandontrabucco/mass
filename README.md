@@ -14,8 +14,8 @@ Our method was developed using PyTorch 1.10.2. Newer versions may be compatible,
 
 Two model checkpoints are required to run MaSS: 
 
-(1) a trained Mask R-CNN checkpoint compatible with `detectron2` available [here](https://drive.google.com/drive/folders/1IpwdFjlb5B4oStDfjyI8cho3nJpnpVPw?usp=share_link).
-(2) a Semantic Search policy that was downloaded with the cloned repository, named `policy.pth` in the same directory as this README.
+1. a trained Mask R-CNN checkpoint compatible with `detectron2` available [here](https://drive.google.com/drive/folders/1IpwdFjlb5B4oStDfjyI8cho3nJpnpVPw?usp=share_link).
+2. a Semantic Search policy that was downloaded with the cloned repository, named `policy.pth` in the same directory as this README.
 
 ## Running The Agent
 
