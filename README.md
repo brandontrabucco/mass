@@ -37,6 +37,7 @@ The above command runs MaSS using our Semantic Search policy to select navigatio
 
 If you find our work helpful in your research, consider citing our paper at ICLR 2023:
 
+```
 @inproceedings{
     trabucco2023a,
     title={A Simple Approach for Visual Room Rearrangement: 3D Mapping and Semantic Search},
@@ -45,9 +46,11 @@ If you find our work helpful in your research, consider citing our paper at ICLR
     year={2023},
     url={https://openreview.net/forum?id=1C6nCCaRe6p}
 }
+```
 
 In addition, consider citing the Rearrangement Challenge benchmark:
 
+```
 @InProceedings{RoomR,
   author = {Luca Weihs and Matt Deitke and Aniruddha Kembhavi and Roozbeh Mottaghi},
   title = {Visual Room Rearrangement},
@@ -55,3 +58,4 @@ In addition, consider citing the Rearrangement Challenge benchmark:
   month = {June},
   year = {2021}
 }
+```
