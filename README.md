@@ -6,7 +6,9 @@ This repository is the official implementation of the [paper](https://openreview
 
 ## Installation
 
-You can install MaSS by installing the required packages with `pip install -r requirements.txt` and following the installation instructions for the [ai2thor-rearrangement package](https://github.com/allenai/ai2thor-rearrangement) on GitHub, and then installing detectron2 following the instructions [here](https://detectron2.readthedocs.io/en/latest/tutorials/install.html).
+You can install MaSS by installing required packages with `pip install -r requirements.txt`, following the installation instructions for the [ai2thor-rearrangement package](https://github.com/allenai/ai2thor-rearrangement) on GitHub, and then [installing detectron2](https://detectron2.readthedocs.io/en/latest/tutorials/install.html).
+
+Once these are installed, MaSS can be installed via `pip install -e .`.
 
 Our method was developed using PyTorch 1.10.2. Newer versions of PyTorch may also be compatible, but are untested.
 
