@@ -12,7 +12,10 @@ Once these are installed, MaSS can be installed via `pip install -e .`.
 
 Our method was developed using PyTorch 1.10.2. Newer versions may be compatible, but are untested.
 
-Two model checkpoints are required to run MaSS: a trained Mask R-CNN checkpoint compatible with `detectron2` available [here](https://drive.google.com/drive/folders/1IpwdFjlb5B4oStDfjyI8cho3nJpnpVPw?usp=share_link) and a Semantic Search policy that was downloaded with the cloned repository, named `policy.pth` in the same directory as this README.
+Two model checkpoints are required to run MaSS: 
+
+(1) a trained Mask R-CNN checkpoint compatible with `detectron2` available [here](https://drive.google.com/drive/folders/1IpwdFjlb5B4oStDfjyI8cho3nJpnpVPw?usp=share_link).
+(2) a Semantic Search policy that was downloaded with the cloned repository, named `policy.pth` in the same directory as this README.
 
 ## Running The Agent
 
@@ -33,7 +36,7 @@ python -u agent.py \
 --start-task 0 --total-tasks 20
 ```
 
-The above command runs MaSS using our Semantic Search policy to select navigation goals during the walkthrough phase and the unshuffle phase. In addition, the `--use-feature-matching` option uses image features to matchg instances of objects between the unshuffle phase and walkthrough phase, and should be used as it improves `%FixedStrict` by 7.03 points in our experiments.
+The above command runs MaSS using our Semantic Search policy to select navigation goals during the walkthrough phase and the unshuffle phase. In addition, the `--use-feature-matching` option uses image features to match instances of objects between the unshuffle phase and walkthrough phase, and should be used as it improves `%FixedStrict` by 7.03 points in our experiments.
 
 ## Citation
 
