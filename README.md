@@ -10,7 +10,7 @@ You can install MaSS by installing required packages with `pip install -r requir
 
 Once these are installed, MaSS can be installed via `pip install -e .`.
 
-Our method was developed using PyTorch 1.10.2. Newer versions of PyTorch may also be compatible, but are untested.
+Our method was developed using PyTorch 1.10.2. Newer versions may be compatible, but are untested.
 
 Two model checkpoints are required to run MaSS: a trained Mask R-CNN checkpoint compatible with `detectron2` available [here](https://drive.google.com/drive/folders/1IpwdFjlb5B4oStDfjyI8cho3nJpnpVPw?usp=share_link) and a Semantic Search policy that was downloaded with the cloned repository, named `policy.pth` in the same directory as this README.
 
